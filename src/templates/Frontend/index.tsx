@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../../organisms/Header";
 import { Container } from "./styles";
 
 type FrontendProps = {
@@ -6,7 +7,11 @@ type FrontendProps = {
 };
 
 function Frontend({ children }: FrontendProps) {
-  return <Container>{children}</Container>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 }
 
 export default Frontend;

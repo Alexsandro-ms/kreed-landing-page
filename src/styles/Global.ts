@@ -7,12 +7,17 @@ const globalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
+html{
+  -webkit-font-smoothing: antialised;
+}
+
 html, body, #root{
     height: 100%;
 }
 
 body{
-    background-color: #F8FDFF;
+    background-color: var(--White-200);
+    font-family: var(--Poppins);
 }
 
 button{
@@ -24,6 +29,21 @@ button{
 a{
     text-decoration: none;
     outline: none;
+}
+
+:root{
+    /* Colors */
+    --Transparent: --transparent;
+    //White
+    --White-500: #FFFFFF;
+    --White-200: #F8FDFF;
+    //Blue
+    --Blue-700: #1e255e;
+    //Cyan
+    --Cyan-400: #17a4d0;
+
+    /* Fonts */
+    --Poppins: 'Poppins', sans-serif;
 }
 
 `;
