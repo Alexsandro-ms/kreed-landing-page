@@ -12,6 +12,7 @@ export const Container = styled.div`
   padding: 20px;
   animation: showOnPage 0.5s linear forwards;
   opacity: 0;
+  z-index: 89;
   > div {
     display: flex;
     align-items: center;

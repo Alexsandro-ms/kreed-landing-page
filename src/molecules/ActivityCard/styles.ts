@@ -13,6 +13,7 @@ export const Container = styled.div`
   padding: 12px;
   overflow: hidden;
   animation: showCard 0.5s linear forwards;
+  z-index: 88;
 
   small {
     font-size: 0.925rem;
