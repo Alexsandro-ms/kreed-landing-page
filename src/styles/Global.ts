@@ -20,7 +20,6 @@ html, body, #root{
 body{
     background-color: var(--White-200);
     background: url(${BackgroundCircle1}) no-repeat 1010px , url(${BackgroundCircle2}) no-repeat 931px;
-    /* background-repeat: no-repeat; */
     font-family: var(--Poppins);
 }
 
