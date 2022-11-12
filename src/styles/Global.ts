@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+import BackgroundCircle1 from "../assets/circle2.png";
+import BackgroundCircle2 from "../assets/circle1.png";
 
 const globalStyle = createGlobalStyle`
 *{
@@ -17,6 +19,8 @@ html, body, #root{
 
 body{
     background-color: var(--White-200);
+    background: url(${BackgroundCircle1}) no-repeat 1010px , url(${BackgroundCircle2}) no-repeat 931px;
+    /* background-repeat: no-repeat; */
     font-family: var(--Poppins);
 }
 
