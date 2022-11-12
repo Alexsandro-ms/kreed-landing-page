@@ -39,8 +39,11 @@ a{
     --White-200: #F8FDFF;
     //Blue
     --Blue-700: #1e255e;
+    --Blue-400: #5236FF;
+    --Blue-200: #EFF3FE;
     //Cyan
     --Cyan-400: #17a4d0;
+    --Cyan-200: #BACCFD;
 
     /* Fonts */
     --Poppins: 'Poppins', sans-serif;

@@ -2,7 +2,7 @@ import React from "react";
 import { FiArrowUp } from "react-icons/fi";
 import { Container } from "./styles";
 
-function Activity() {
+function ActivityCard() {
   return (
     <Container>
       <small>Atividade</small>
@@ -17,4 +17,4 @@ function Activity() {
   );
 }
 
-export default Activity;
+export default ActivityCard;
