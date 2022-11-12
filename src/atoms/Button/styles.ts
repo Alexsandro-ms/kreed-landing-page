@@ -33,7 +33,7 @@ export const Container = styled.button<ButtonPropsStyles>`
   :hover {
     box-shadow: 0px 0px 5px var(--Cyan-400);
     transform: scale(0.9);
-    font-size: 0.95rem;
+    font-size: 0.89rem;
     text-shadow: 0px 0px 15px var(--Cyan-400);
   }
 `;

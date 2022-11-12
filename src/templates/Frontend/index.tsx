@@ -10,6 +10,7 @@ function Frontend({ children }: FrontendProps) {
   return (
     <Container>
       <Header />
+      <main>{children}</main>
     </Container>
   );
 }
